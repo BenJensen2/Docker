@@ -1,0 +1,4 @@
+docker-compose up --build -d
+# ^ Works
+# Only working on / route (static & server)
+# Maybe official nginx image isn't designed to run nginx routes but only be a reverse proxy

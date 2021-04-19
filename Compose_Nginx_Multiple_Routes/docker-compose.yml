@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+    nginx:
+        restart: always
+        build:
+            context: ./nginx
+        ports:
+            - "80:80"
+        volumes:
+            - ./app/static_client_bind:/usr/share/nginx/html

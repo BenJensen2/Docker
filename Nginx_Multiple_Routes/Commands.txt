@@ -1,0 +1,4 @@
+docker build -t nginx_in_docker_multiple_routes .
+docker run -p 80:80 nginx_in_docker_multiple_routes
+
+Not working at all.

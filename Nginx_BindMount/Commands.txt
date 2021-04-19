@@ -1,0 +1,4 @@
+docker run -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
+# ^ Works
+
+# Nginx will reload automatically and save any changes from the bind mount
